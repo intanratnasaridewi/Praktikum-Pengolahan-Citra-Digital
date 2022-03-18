@@ -18,10 +18,14 @@ import cv2
 import numpy as np
 
 
-class Ui_MainWindow(object):
+class Ui(QtWidgets.QMainWindow):
     def __init__(self):
         super(Ui, self).__init__()
-        uic.loadUi('Mod1_deaign.ui', self)
+        ui.loadUi('Mod1_design.ui', self)
+
+        self.tabWidget.currentChanged.connect(self.tabChanged)
+        self.openButton = self.findChild(QtWidgets.QPushButton, 'openButton')
+        self.openButton.clicked.connect(self.loadImage)
 
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
@@ -135,7 +139,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
         self.tabWidget.setCurrentIndex(0)
-        self.openButton.clicked.connect(self.loadImage)
+        
         self.copyButton.clicked.connect(self.copyImage)
         # self.exitButton.clicked.connect(lambda:self.close())
         self.btnRed.clicked.connect(self.convertRed)
@@ -278,7 +282,7 @@ if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
-    ui = Ui_MainWindow()
+    ui = Ui()
     ui.setupUi(MainWindow)
     MainWindow.show()
     sys.exit(app.exec_())

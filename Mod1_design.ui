@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>548</width>
+    <height>421</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>PraktikumPengolahanCitraDigital</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>551</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Modul 1</string>
+     </attribute>
+     <widget class="QRadioButton" name="btnRed">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>60</y>
+        <width>80</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Red</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="btnGreen">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>90</y>
+        <width>80</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Green</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="btnBlue">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>120</y>
+        <width>80</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Blue</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="btnCyn">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>240</y>
+        <width>80</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Cyin</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="btnMagenta">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>270</y>
+        <width>80</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Magenta</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="btnYellow">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>300</y>
+        <width>80</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Yellow</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="openButton">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>260</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Open</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="copyButton">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>260</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Copy</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="exitButton">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>300</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Exit</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="pictureBox">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>80</y>
+        <width>191</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="pictureBox2">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>20</y>
+        <width>191</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="pictureBox3">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>200</y>
+        <width>191</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelCitraAsli">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>60</y>
+        <width>47</width>
+        <height>14</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>Citra Asli</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelCitraRGB">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>0</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>Citra RGB</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelCitraCMY">
+      <property name="geometry">
+       <rect>
+        <x>309</x>
+        <y>180</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>Citra CMY</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Modul 2</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>Modul 3</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>Modul 4</string>
+     </attribute>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>548</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="statusTip">
+    <string>Modul1</string>
+   </property>
+   <property name="defaultUp">
+    <bool>true</bool>
+   </property>
+   <widget class="QMenu" name="menuModul1">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionNew"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuModul2">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuModul3">
+    <property name="title">
+     <string>View</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuModul4">
+    <property name="title">
+     <string>Setting</string>
+    </property>
+   </widget>
+   <addaction name="menuModul1"/>
+   <addaction name="menuModul2"/>
+   <addaction name="menuModul3"/>
+   <addaction name="menuModul4"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNew">
+   <property name="text">
+    <string>New</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>openButton</sender>
+   <signal>clicked()</signal>
+   <receiver>pictureBox</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>53</x>
+     <y>306</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>54</x>
+     <y>270</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnRed</sender>
+   <signal>clicked()</signal>
+   <receiver>pictureBox2</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>477</x>
+     <y>110</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>425</x>
+     <y>113</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnGreen</sender>
+   <signal>clicked()</signal>
+   <receiver>pictureBox2</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>490</x>
+     <y>140</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>423</x>
+     <y>145</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnBlue</sender>
+   <signal>clicked()</signal>
+   <receiver>pictureBox2</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>476</x>
+     <y>174</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>418</x>
+     <y>169</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnCyn</sender>
+   <signal>clicked()</signal>
+   <receiver>pictureBox3</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>472</x>
+     <y>292</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>424</x>
+     <y>291</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnMagenta</sender>
+   <signal>clicked()</signal>
+   <receiver>pictureBox3</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>473</x>
+     <y>322</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>422</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnYellow</sender>
+   <signal>clicked()</signal>
+   <receiver>pictureBox3</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>477</x>
+     <y>353</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>420</x>
+     <y>351</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
