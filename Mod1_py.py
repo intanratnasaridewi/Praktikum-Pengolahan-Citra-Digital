@@ -19,6 +19,10 @@ import numpy as np
 
 
 class Ui_MainWindow(object):
+    def __init__(self):
+        super(Ui, self).__init__()
+        uic.loadUi('Mod1_deaign.ui', self)
+
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(548, 421)
